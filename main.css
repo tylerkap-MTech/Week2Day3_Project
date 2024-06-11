@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+}
+
+
+.container {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    height: 8%; 
+    width: 100%;
+    background-color: #0b0b11;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: lightgray;
+}
+
+.navbar ul li:first-of-type {
+    padding-left: 0;
+}
+
+.item-2 {
+    height: 100vh; 
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-image: url(images/aurora.jpg);
+    background-size: cover;
+}
+
+.home-title {
+    height: 300px;
+    width: 400px;
+    padding-left: 30px;
+    margin: 101px auto 0 auto;
+}
+
+.home-title h1 {
+    margin: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: lightgray;
+}
+
+.home-title h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: lightgray;
+}
+
